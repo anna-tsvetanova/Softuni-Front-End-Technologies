@@ -1,1 +1,34 @@
+header{
+    border-bottom: 2px solid black;
+}
 
+h1{
+    float:left;
+    font-size: 30px;
+    font-weight: 110px;
+}
+
+nav{
+    display:inline-block;
+}
+
+li{
+    display:inline-block;
+    padding:12px; 
+
+}
+
+a{
+    text-decoration: none;
+    color:green;
+
+}
+
+ul{
+    margin:30px;
+    margin-left:200px;
+}
+
+html{
+    margin-left:50px;
+}
