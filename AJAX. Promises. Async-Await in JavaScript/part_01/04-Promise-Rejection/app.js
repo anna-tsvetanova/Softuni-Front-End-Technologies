@@ -4,7 +4,7 @@ function promiseRejection() {
             reject("Smth went wrong!");
         }, 1000);
     })
-    .catch((result) => {console.log(result)});
+    .catch((error) => {console.log(error)});
 }
 
 promiseRejection();
