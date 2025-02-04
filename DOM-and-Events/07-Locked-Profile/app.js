@@ -1,5 +1,3 @@
-
-
 function lockedProfile() {
     let buttoneElements = Array.from(document.querySelectorAll('div button'));
     let lockElements = document.querySelectorAll('.profile input[type="radio"]');
