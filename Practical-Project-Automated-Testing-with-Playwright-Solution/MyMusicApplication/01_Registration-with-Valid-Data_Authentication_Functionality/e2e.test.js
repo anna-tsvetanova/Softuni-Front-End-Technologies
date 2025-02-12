@@ -17,3 +17,4 @@ describe("authentication", () => {
             await expect(page.locator("//a[@href='/logout']")).toBeVisible();
             expect(page.url()).toBe(host + '/');
         });
+})
